@@ -19,5 +19,7 @@ int main(){
     }
   }
   printf("Heads: %d, Tails: %d\n",Head,Tail);
+   if(Head>Tail)printf("You won!\n");
+  else printf("You lost\n");
   return 0;
 }
